@@ -1,0 +1,79 @@
+body{
+    background-color: #232323;
+    font-family:"Cambria";
+}
+
+
+
+
+.header{
+    color: white;
+    background-color: steelblue;
+    text-align: center ;
+    text-transform: uppercase;
+    padding: 20px 0;
+    line-height: 1.1;
+    font-weight: normal;
+    /* border: solid black 10px; */
+}
+#bar{
+    color:black;
+    height: 30px;
+    text-transform:lowercase;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.square{
+    background-color:#232323;
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background-color 0.6s;
+    /* -moz-transition: background 0.6s; */
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.selected{
+    background:steelblue;
+    color: white;
+
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+button{
+    border: 0;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 2.8px 5px;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    /* outline: none; */
+}
+
+#message{
+    display: inline-block;
+    width: 15%;
+    color: steelblue;
+}
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+button:focus{
+    outline: none;
+}
